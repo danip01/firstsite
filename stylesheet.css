@@ -1,0 +1,96 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+}  
+header{
+    position: relative;
+}
+.header-photo{
+    width: 100%;
+    height: 500px;
+    display: block;
+    margin: auto;
+    position: absolute;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.menu-container{
+    width: 83%;
+    margin: 0 auto;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 10px 0;
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h1{
+    position: absolute;
+    top: 250px;
+    left: 430px;
+    color: white;
+    font-size: 60px;
+}
+
+#middle{
+    max-width: 1055px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.gallery-image{
+    flex: 1;
+}
+.cphoto{
+    width: 350px;
+    height:350px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#bottom{
+    border: 1px solid lightgray;
+    text-align: center;
+    margin: 30px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.text, .number, .mail{
+    margin-bottom: 10px;
+    padding: 12px 20px;
+    width: 200px;
+    border-radius: 5px;
+    
+}
+
+.left-color1{
+    background-color: red;
+}
